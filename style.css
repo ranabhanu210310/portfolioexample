@@ -48,9 +48,18 @@ text-align: center;
     background-color:black;
     background-blend-mode: difference;
     font-weight: bold;
-    
+    transition: all 0.2s ease-in-out;
     
 }
-#anim{
-    grid-row:span 2;
+.image:hover{
+      box-shadow: 0 0 20px 5px white;
+      transform: translateY(-5px);
+    }
+
+.anim{
+ grid-row:span 2;
+ 
+}
+.plant{
+  grid-column: span 2;
 }
