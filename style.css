@@ -69,13 +69,20 @@ text-align: center;
   }
   .right{
     width: 95%;
+       grid-template-columns: repeat(2,1fr);
+    padding: 5px;
   }
-    .image{
-     grid-row:span 1;
- grid-column: span 1;
-  }
+  .anim{
+ grid-row:span 1;
+ 
+}
+.plant{
+  grid-column: span 1;
+}
+  
   #an1{
     grid-row: span 2;
   }
- 
 }
+ 
+
