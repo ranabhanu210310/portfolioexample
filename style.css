@@ -49,3 +49,6 @@ text-align: center;
     background-blend-mode: difference;
     
 }
+#anim{
+    grid-row:span 2;
+}
